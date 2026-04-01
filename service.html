@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IT Careers </title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Welcome to the TechCareers Quiz!</h2>
+            <p>We're excited to help you discover the IT career path that best suits your skills and interests. This 20-question quiz is designed to explore your preferences and strengths, guiding you towards a fulfilling career in the tech industry. Whether you're passionate about Cybersecurity, Data Science, Web Development, or another tech field, this quiz will provide valuable insights.
+                Let's get started and find the perfect tech career for you!
+                </p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+    <a href="index.html" class="return"> <p class="back">GO BACK!</p> </a>
+    <div class="container">
+        <h1>Find Your Ideal ICT Career</h1>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <form id="careerQuiz">
+            <div class="question" id="questionContainer">
+                <!-- Questions will be inserted here dynamically -->
+            </div>
+            <div class="submit">
+                <input type="button" value="Next" id="nextButton">
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="service.js"></script>
+</body>
+</html>
